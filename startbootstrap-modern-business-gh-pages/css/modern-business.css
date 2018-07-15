@@ -27,3 +27,15 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+.navbar {
+  background-color: rgba(168, 30, 28, 1);
+}
+
+.navbar-brand {
+  color: rgba(236, 167, 44, 1) !important;
+}
+
+.btn-primary {
+  background-color: rgba(168, 30, 28, 1);
+  border-color: rgba(168, 30, 28, 1);
+}
