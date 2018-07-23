@@ -6,6 +6,7 @@
 
 body {
   padding-top: 54px;
+  font-family: 'Lato', sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -24,6 +25,10 @@ body {
   background-size: cover;
 }
 
+.black-slide-text {
+  color: black;
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }
@@ -33,6 +38,7 @@ body {
 
 .navbar-brand {
   color: rgba(236, 167, 44, 1) !important;
+  font-family: 'Concert One', cursive;
 }
 
 .btn-primary {
