@@ -45,3 +45,7 @@ body {
   background-color: rgba(168, 30, 28, 1);
   border-color: rgba(168, 30, 28, 1);
 }
+
+.py-5 {
+  background-color: rgba(236, 167, 44, 1);
+}
