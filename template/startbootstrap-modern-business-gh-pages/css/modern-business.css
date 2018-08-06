@@ -6,7 +6,6 @@
 
 body {
   padding-top: 54px;
-  font-family: "Lato", sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -25,32 +24,6 @@ body {
   background-size: cover;
 }
 
-.black-slide-text {
-  color: black;
-}
-
 .portfolio-item {
   margin-bottom: 30px;
-}
-.navbar {
-  background-color: rgba(168, 30, 28, 1);
-}
-
-.navbar-brand {
-  color: rgba(236, 167, 44, 1) !important;
-  font-family: "Concert One", cursive;
-}
-
-.btn-primary {
-  background-color: rgba(168, 30, 28, 1);
-  border-color: rgba(168, 30, 28, 1);
-}
-
-.py-5 {
-  background-color: rgba(236, 167, 44, 1);
-}
-
-.dish-img {
-  max-width: 500px;
-  max-height: 300px;
 }

@@ -20,115 +20,163 @@
 
 <body>
 
-<!-- Navigation -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top">
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">One Stop Meal</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../resturantsListing.html">Restaurants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../blog-home-2.html">
+              Curated
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
   <div class="container">
-    <a class="navbar-brand" href="../index.html">One Stop Meal</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="../resturantsListing.html">Restaurants</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../blog-home-2.html">
-            Curated
-          </a>
-        </li>
 
-      </ul>
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">Restaurant one
+      <small>Subheading</small>
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="../index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item active" id="restaurant_name">Restaurant Five</li>
+    </ol>
+
+    <!-- Portfolio Item Row -->
+    <div class="row">
+
+      <div class="col-md-8">
+        <img class="img-fluid" src="../images/restaurant5.jpg" alt="">
+      </div>
+
+      <div class="col-md-4">
+        <h3 class="my-3">Restaurant Description</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius
+          vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat,
+          felis enim.</p>
+        <h3 class="my-3">Featured dish</h3>
+        <ul>
+          <li>Lorem Ipsum</li>
+          <li>Dolor Sit Amet</li>
+          <li>Consectetur</li>
+          <li>Adipiscing Elit</li>
+        </ul>
+      </div>
+
     </div>
-  </div>
-</nav>
+    <!-- /.row -->
 
-<!-- Page Content -->
-<div class="container">
+    <!-- Related Projects Row -->
+    <h3 class="my-4">Dish Photos</h3>
 
-  <!-- Page Heading/Breadcrumbs -->
-  <h1 class="mt-4 mb-3">Restaurant one
-    <small>Subheading</small>
-  </h1>
+    <div class="row">
 
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item">
-      <a href="../index.html">Home</a>
-    </li>
-    <li class="breadcrumb-item active" id="restaurant_name">Restaurant Five</li>
-  </ol>
+      <div class="col-md-3 col-sm-6 mb-4">
+        <a href="#">
+          <img class="img-fluid" src="../images/rest5_photo_1.jpg" alt="">
+        </a>
+        <form action="">
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button class="btn btn-danger" type="button" onclick="minsValue()">-</button>
+            </span>
+            <input type="text" id="numOfOrder" class="form-control" placeholder="0" value="0">
+            <span>
+              <button class="btn btn-danger" type="button" onclick="addValue()">+</button>
+            </span>
+          </div>
+          <button type="button" class="btn btn-info" onclick="getOrder()">Add order</button>
+        </form>
+      </div>
 
-  <!-- Portfolio Item Row -->
-  <div class="row">
+      <div class="col-md-3 col-sm-6 mb-4">
+        <a href="#">
+          <img class="img-fluid" src="../images/rest5_photo_2.jpg" alt="">
+        </a>
+        <form action="">
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button class="btn btn-danger" type="button" onclick="minsValue()">-</button>
+            </span>
+            <input type="text" id="numOfOrder" class="form-control" placeholder="0" value="0">
+            <span>
+              <button class="btn btn-danger" type="button" onclick="addValue()">+</button>
+            </span>
+          </div>
+          <button type="button" class="btn btn-info" onclick="getOrder()">Add order</button>
+        </form>
+      </div>
 
-    <div class="col-md-8">
-      <img class="img-fluid" src="../images/restaurant5.jpg" alt="">
+      <div class="col-md-3 col-sm-6 mb-4">
+        <a href="#">
+          <img class="img-fluid" src="../images/rest5_photo_3.jpg" alt="">
+        </a>
+        <form action="">
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button class="btn btn-danger" type="button" onclick="minsValue()">-</button>
+            </span>
+            <input type="text" id="numOfOrder" class="form-control" placeholder="0" value="0">
+            <span>
+              <button class="btn btn-danger" type="button" onclick="addValue()">+</button>
+            </span>
+          </div>
+          <button type="button" class="btn btn-info" onclick="getOrder()">Add order</button>
+        </form>
+      </div>
+
+      <div class="col-md-3 col-sm-6 mb-4">
+        <a href="#">
+          <img class="img-fluid" src="../images/rest5_photo_4.jpg" alt="">
+        </a>
+        <form action="">
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button class="btn btn-danger" type="button" onclick="minsValue()">-</button>
+            </span>
+            <input type="text" id="numOfOrder" class="form-control" placeholder="0" value="0">
+            <span>
+              <button class="btn btn-danger" type="button" onclick="addValue()">+</button>
+            </span>
+          </div>
+          <button type="button" class="btn btn-info" onclick="getOrder()">Add order</button>
+        </form>
+      </div>
+
     </div>
+    <!-- /.row -->
 
-    <div class="col-md-4">
-      <h3 class="my-3">Restaurant Description</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius
-        vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat,
-        felis enim.</p>
-      <h3 class="my-3">Featured dish</h3>
-      <ul>
-        <li>Lorem Ipsum</li>
-        <li>Dolor Sit Amet</li>
-        <li>Consectetur</li>
-        <li>Adipiscing Elit</li>
-      </ul>
-    </div>
-
-  </div>
-  <!-- /.row -->
-
-  <!-- Related Projects Row -->
-  <h3 class="my-4">Dish Photos</h3>
-
-  <div class="row">
-
-    <div class="col-md-3 col-sm-6 mb-4">
-      <a href="#">
-        <img class="img-fluid" src="../images/rest5_photo_1.jpg" alt="">
-      </a>
-    </div>
-
-    <div class="col-md-3 col-sm-6 mb-4">
-      <a href="#">
-        <img class="img-fluid" src="../images/rest5_photo_2.jpg" alt="">
-      </a>
-    </div>
-
-    <div class="col-md-3 col-sm-6 mb-4">
-      <a href="#">
-        <img class="img-fluid" src="../images/rest5_photo_3.jpg" alt="">
-      </a>
-    </div>
-
-    <div class="col-md-3 col-sm-6 mb-4">
-      <a href="#">
-        <img class="img-fluid" src="../images/rest5_photo_4.jpg" alt="">
-      </a>
-    </div>
-
-  </div>
-  <!-- /.row -->
-
-</div>
-<!-- /.container -->
-
-<!-- Footer -->
-<footer class="py-5 bg-dark">
-  <div class="container">
-    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
   </div>
   <!-- /.container -->
-</footer>
 
-<!-- Bootstrap core JavaScript -->
-<script src="../vendor/jquery/jquery.min.js"></script>
-<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
