@@ -1,17 +1,17 @@
-function addValue() {
-  var numOfOrder = parseInt(document.getElementById("numOfOrder").value);
+function addValue(id) {
+  var numOfOrder = parseInt(document.getElementById(id).value);
   numOfOrder++;
-  document.getElementById("numOfOrder").value = numOfOrder.toString();
+  document.getElementById(id).value = numOfOrder.toString();
 }
 
-function minsValue() {
-  var numOfOrder = parseInt(document.getElementById("numOfOrder").value);
+function minsValue(id) {
+  var numOfOrder = parseInt(document.getElementById(id).value);
   if (numOfOrder <= 0) {
     numOfOrder = 0;
   } else {
     numOfOrder--;
   }
-  document.getElementById("numOfOrder").value = numOfOrder.toString();
+  document.getElementById(id).value = numOfOrder.toString();
 }
 
 function getOrder() {
