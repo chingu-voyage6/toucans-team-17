@@ -25,8 +25,8 @@ body {
   background-size: cover;
 }
 
-.black-slide-text {
-  color: black;
+.text-shadow {
+  text-shadow: 1px 1px 2px black;
 }
 
 .portfolio-item {
