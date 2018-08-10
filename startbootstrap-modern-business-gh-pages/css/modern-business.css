@@ -14,6 +14,10 @@ body {
     padding-top: 56px;
   }
 }
+.logoSize {
+  width: 25%;
+  height: 25%;
+}
 
 .carousel-item {
   height: 65vh;
