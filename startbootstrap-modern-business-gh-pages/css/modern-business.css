@@ -34,7 +34,7 @@ body {
 }
 
 .moreSpace {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem!important;
   margin-top: 2.5rem!important;
 }
 
