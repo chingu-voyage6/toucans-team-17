@@ -17,3 +17,5 @@ function minsValue(id) {
 function getOrder() {
   alert("Order added!");
 }
+
+
